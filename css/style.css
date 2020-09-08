@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+html {
+    --spacing: 10px;
+    --blur: 10px;
+    --base: #ff8959;
+}
+
 body {
     text-align: center;
     background: #193549;
@@ -30,4 +36,14 @@ input {
 
 .image-container img {
     width: 70%;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base)
 }
