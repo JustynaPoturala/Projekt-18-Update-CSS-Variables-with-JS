@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.title {
+    margin: 20px;
+}
+
+.controls {
+    margin-bottom: 30px;
+}
+
+.controls .control {
+    margin: 10px;
+}
+
+input {
+    width: 100px;
+}
+
+.image-container img {
+    width: 70%;
+}
