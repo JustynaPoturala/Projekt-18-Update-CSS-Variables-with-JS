@@ -7,6 +7,7 @@ html {
     --spacing: 10px;
     --blur: 10px;
     --base: #ff8959;
+    /* --sepia: 0%; */
 }
 
 body {
@@ -42,6 +43,7 @@ img {
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
+    /* filter: sepia(var(--sepia)); */
 }
 
 .hl {
